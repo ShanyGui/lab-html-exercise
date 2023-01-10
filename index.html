@@ -9,8 +9,10 @@
 <body>
     <header>
         <div id="topheader">
-            <img src="images/black-heart.png" alt="Coeur Noir">
-            Neverending Pun Machine
+            <div>
+                <img id="petitcoeur" src="images/black-heart.png" alt="Coeur Noir">
+                <span>Neverending Pun Machine</span>
+            </div>
             <nav>
                 <ul>
                     <il><a href="">npm Enterprise</a></il>
@@ -23,12 +25,15 @@
             </nav>
         </div>
         <div id="bottomheader">
-            <img src="images/npm-logo.png" alt="This is NPM">
-            <form id="searchbar">
-                <img src="images/magnifying-glass.png" alt="search">
-                <input type="search" id="search" placeholder="Search packages ...">
-                <button>Search</button>
-            </form>
+            <div>
+                <img id="npmlogo" src="images/npm-logo.png" alt="This is NPM">
+            </div>
+            <div>
+                <form id="search">
+                    <input type="search" id="searchbar" placeholder="Search packages ...">
+                    <button id="searchbutton">Search</button>
+                </form>
+            </div>
             <a href="">Join</a>
             <a href="">Log in</a>
         </div>
